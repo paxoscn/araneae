@@ -1,0 +1,79 @@
+http://edition.cnn.com/search/?text=south+china+sea
+http://searchapp.cnn.com/search/query.jsp?page=2&npp=10&start=1&text=south%2Bchina%2Bsea&type=all&bucket=true&sort=relevance&csiID=csi2
+
+url=/videos/tv/2015/11/05/exp-gps-1101-last-look.cnn
+collection=Videos
+url=http://ireport.cnn.com/docs/DOC-1280682
+collection=iReport
+url=/2015/10/27/opinions/poling-south-china-sea-tensions/index.html
+collection=Stories
+
+{
+  "buckets":[
+    {
+      "fieldname":"collection",
+      "total":75157,
+      "countByValues":[
+        {
+          "fieldvalue":"STORIES",
+          "count":65631
+        },
+        {
+          "fieldvalue":"PHOTOS",
+          "count":4920
+        },
+        {"fieldvalue":"VIDEOS","count":4158},
+        {"fieldvalue":"IREPORT","count":445},
+        {"fieldvalue":"INTERACTIVES","count":3}
+      ]
+    },
+    {
+      "fieldname":"publishdate",
+      "total":64249,
+      "countByValues":[
+        {"fieldvalue":"01/01/1970","count":3851},
+        {"fieldvalue":"27/10/2015","count":169},
+        {"fieldvalue":"05/11/2015","count":161},
+        {"fieldvalue":"12/11/2015","count":160}
+      ]
+    }
+  ],
+  "topics":[],
+  "criteria":[
+    {
+      "target":"all",
+      "startAt":1,
+      "sites":[],
+      "sortBy":"relevance",
+      "order":"desc",
+      "maxResults":10,
+      "queries":["south+china+sea"]
+    }
+  ],
+  "metaResults":{"all":5926},
+  "results":[
+    [
+      {
+        "description":"CNN's Fareed Zakaria takes a look at China's reclamation in the South China Sea and at the U.S. efforts to challenge that.",
+        "mediaDateUts":"21:31 PM, Nov 05, 2015",
+        "url":"/videos/tv/2015/11/05/exp-gps-1101-last-look.cnn",
+        "title":"Last Look: 'Provocation' in the South China Sea",
+        "thumbnail":"http://i2.cdn.turner.com/cnn/dam/assets/151105162724-exp-gps-1101-last-look-00011527-wall-4-tease.jpg",
+        "duration":"108",
+        "collection":"Videos",
+        "id":"http://www.cnn.com/videos/tv/2015/11/05/exp-gps-1101-last-look.cnn"
+      }
+    ]
+  ],
+  "didYouMean":{
+    "prompt":"",
+    "correctedResults":[]
+  },
+  "spotlights":[
+    {
+      "passback":"",
+      "id":"cnnSpotlight",
+      "items":[]
+    }
+  ]
+}
