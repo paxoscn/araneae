@@ -57,6 +57,12 @@ public class Context
   public void handle(Config config, Page page)
   {
     String content = new String(page.getContent().getBytes(), page.getContent().getOffset(), page.getContent().getLength(), config.getCharset());
+    page.cache(content);
+    handle(config, page, content);
+  }
+
+  public void handle(Config config, Page page, String content)
+  {
     for (Handler handler : handlers)
     {
       if (handler.accept(page))

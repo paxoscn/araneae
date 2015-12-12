@@ -79,7 +79,7 @@ public class Client
       {
         lastVisited = 0L;
       }
-      System.out.println(System.currentTimeMillis() + " " + lastVisited + " " + host);
+//      System.out.println(System.currentTimeMillis() + " " + lastVisited + " " + host);
       return System.currentTimeMillis() - lastVisited > config.getInterval();
     }
 
@@ -87,7 +87,7 @@ public class Client
         final CompletionHandler<BytesWithOffset, Void> completionHandler)
     {
       final String host = host(url);
-      System.out.println(System.currentTimeMillis() + " " + host);
+//      System.out.println(System.currentTimeMillis() + " " + host);
       lastVisitedMap.put(host, System.currentTimeMillis());
       url = url.substring(url.indexOf("://") + 3);
       String path = "/";
